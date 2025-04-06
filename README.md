@@ -7,7 +7,7 @@ This project uses Facebook's pre-trained [Wav2Vec2](https://huggingface.co/faceb
 
 ## 📂 Dataset
 
-- **Source**: [TESS - Toronto emotional speech set](https://dataverse.library.yorku.ca/dataset.xhtml?persistentId=doi:10.5683/SP2/E8H2MF)
+- **Source**: [TESS - Toronto emotional speech set](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess/data)
 - **Structure**: `.wav` audio files organized by emotion labels inferred from filenames.
 
 ---
