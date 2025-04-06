@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0e0e0e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.navbar {
+  width: 100%;
+  background: #1f1f1f;
+  padding: 1rem 2rem;
+  display: flex;
+  padding-left: 2px;
+  padding-right: 2px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo-text span {
+  color: #00ffcc;
+}
+
+.nav-buttons .nav-btn {
+  background: transparent;
+  border: 1px solid #00ffcc;
+  color: #00ffcc;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-buttons .signup {
+  background: #00ffcc;
+  color: #000;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.badge {
+  background: #1a1a1a;
+  padding: 3rem;
+  border-radius: 30px;
+  box-shadow: 0 0 30px #00ffcc33;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: auto;
+  position: relative;
+}
+
+.robot {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #222;
+  position: relative;
+  margin-bottom: 1rem;
+  border: 3px solid #00ffcc;
+}
+
+.eye {
+  width: 15px;
+  height: 15px;
+  background: #00ffcc;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+}
+
+.left-eye {
+  left: 25%;
+}
+
+.right-eye {
+  right: 25%;
+}
+
+.mouth {
+  width: 40%;
+  height: 5px;
+  background: #00ffcc;
+  position: absolute;
+  bottom: 25%;
+  left: 30%;
+  border-radius: 10px;
+}
+
+h1 span {
+  color: #00ffcc;
+}
+
+.mic-ball {
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle at 30% 30%, #00ffcc, #004d40);
+  border-radius: 50%;
+  margin: 2rem auto;
+  animation: pulse 1s infinite;
+  box-shadow: 0 0 50px #00ffccaa;
+  transition: all 0.3s ease;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.status {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.record-btn {
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  background: #00ffcc;
+  border: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.record-btn:hover {
+  background: #00e6b8;
+}
